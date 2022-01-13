@@ -8,6 +8,20 @@ body {
   font-family: "ROBOTO", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5d00df;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid black;  /* creates padding around scroll thumb */
+}
+
 .nav,
 .slider {
   display: flex;
@@ -28,13 +42,13 @@ body {
   margin: 0;
   padding-bottom: 0.5rem;
   letter-spacing: 0.3rem;
-  color: #03dac6;
+  color: #000000;
   transition: all 0.3s ease;
   z-index: 3;
 }
 h1:hover {
   transform: translate3d(0, -10px, 22px);
-  color: #ff0266;
+  color: #5d00df;
 }
 
 .slider h2 {
@@ -42,7 +56,7 @@ h1:hover {
   letter-spacing: 0.3rem;
   font-family: "ROBOTO", sans-serif;
   font-weight: 300;
-  color: #faebd7;
+  color: #001dff;
   z-index: 4;
 }
 h3.span {
@@ -50,11 +64,11 @@ h3.span {
   letter-spacing: 0.15rem;
   font-family: "ROBOTO", sans-serif;
   font-weight: 300;
-  color: #faebd7;
+  color: #000000;
   z-index: 4;
 }
 span:hover {
-  color: #ff0266;
+  color: #5d00df;
   font-weight: 500;
   font-size: 2.2vw;
 }
@@ -96,7 +110,7 @@ a {
   justify-content: center;
   align-items: center;
   flex: 1;
-  color: #03dac6;
+  color: #5d00df;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
   font-size: 2vw;
@@ -104,7 +118,7 @@ a {
 
 .nav-tab:hover {
   color: #1e1f26;
-  background: #03dac6;
+  background: #5d00df;
   transition: all 0.5s ease;
 }
 
@@ -113,7 +127,7 @@ a {
   bottom: 0;
   width: 0;
   height: 5px;
-  background: #03dac6;
+  background: #5d00df;
   transition: left 0.3s ease;
 }
 .background {
@@ -167,15 +181,15 @@ a {
   z-index: 0;
 }
 .loader span {
-  color: #faebd7;
-  text-shadow: 0 0 0 #faebd7;
+  color: #000000;
+  text-shadow: 0 0 0 #000000;
   -webkit-animation: loading 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes loading {
   to {
-    text-shadow: 20px 0 70px #ff0266;
-    color: #ff0266;
+    text-shadow: 20px 0 70px #5d00df;
+    color: #5d00df;
   }
 }
 .loader span:nth-child(2) {
