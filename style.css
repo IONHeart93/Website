@@ -31,6 +31,10 @@ input {
    box-shadow: 0 0 5px #9142ff;
 }
 
+#click:hover {
+  text-decoration: none;
+}
+
 .nav,
 .slider {
   display: flex;
