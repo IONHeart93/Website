@@ -11,13 +11,13 @@ window.onload = function () {
 };
 var particles = Particles.init({
   selector: ".background",
-  color: ["#03dac6", "#ff0266", "#000000"],
+  color: ["#8508ff", "#5d00df", "#000000"],
   connectParticles: false,
   responsive: [
     {
       breakpoint: 768,
       options: {
-        color: ["#faebd7", "#03dac6", "#ff0266"],
+        color: ["#1d1d1d", "#000000", "#5d00df"],
         maxParticles: 43,
         connectParticles: false
       }
