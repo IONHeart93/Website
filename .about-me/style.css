@@ -149,8 +149,8 @@ body {
 }
 .min:hover {
   box-shadow: none;
-  background: #fff !important;
-  color: #E34B48;
+  background: #000000 !important;
+  color: ##E34B48;
 }
 
 .design {
